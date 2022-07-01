@@ -1,21 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Resume Website</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Resume Website</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-    crossorigin="anonymous"></script>
-</head>
+  <body>
+    <div class="fullscreen-block" style="background-color: #0b4213">
+      <div
+        style="background-color: #f3f7e1; margin-left: 75px; margin-right: 75px"
+        class="d-flex flex-column"
+      >
+        <!-- Navbar -->
+        <div class="d-flex mb-3">
+          <div class="me-auto p-2 fw-bolder fs-1" style="margin-left: 100mm">
+            Sopida
+          </div>
+          <div class="hstack gap-5" style="margin-right: 70mm">
+            <a href="http://127.0.0.1:5500/lab-01-Jabbwa/index.html">Home</a>
+            <a href="http://127.0.0.1:5500/lab-01-Jabbwa/experience.html"
+              >Experience</a
+            >
 
-<body>
+            <a href="http://127.0.0.1:5500/lab-01-Jabbwa/contact.html"
+              >Contact</a
+            >
+          </div>
+        </div>
 
-
-</body>
-
+        <!-- Info -->
+        <div class="d-flex mb-3" style="margin-top: 100px">
+          <!-- img -->
+          <div style="margin-left: 400px">
+            <img
+              src="/lab-01-Jabbwa/img/000036.JPG"
+              width="250"
+              height="250"
+              style="object-fit: cover"
+              class="rounded-circle"
+            />
+          </div>
+          <!-- Introduce -->
+          <div
+            style="
+              width: 300px;
+              margin-left: 100px;
+              align-items: center;
+              display: flex;
+              flex-direction: column;
+            "
+          >
+            <span class="fw-bolder fs-3">Sopida kiti</span>
+            <span
+              >My name is Sopida kiti and my nickname is Vaan. I'm Student from
+              the faculty of Engineering(majoring in Computer.)
+            </span>
+          </div>
+        </div>
+        <!-- About me-->
+        <div style="margin-top: 100px; margin-left: 100mm">
+          <span class="fs-3">About me</span> <br />
+          <br />
+          <!-- Programming -->
+          <div
+            class="card mb-3"
+            style="background-color: #fffde6; max-width: 540px"
+          >
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img
+                  src="/lab-01-Jabbwa/img/c70de3d4362ac2f12aeb1cd9c57b4246.jpg"
+                  class="img-fluid rounded-start"
+                  style="object-fit: cover"
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Programming</h5>
+                  <p class="card-text">
+                    I used to be study C++ and now I studing Java scritp.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br />
+          <!-- Potential -->
+          <div
+            class="card mb-3"
+            style="background-color: #fffde6; max-width: 540px"
+          >
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img
+                  src="/lab-01-Jabbwa/img/electric-guitar-vector-icon-illustration_138676-378.webp"
+                  class="img-fluid rounded-start"
+                  style="object-fit: cover"
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Potential</h5>
+                  <p class="card-text">I can play guitar.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br />
+          <!-- Hobby -->
+          <div
+            class="card mb-3"
+            style="background-color: #fffde6; max-width: 540px"
+          >
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img
+                  src="/lab-01-Jabbwa/img/istockphoto-1026452194-612x612.jpg"
+                  class="img-fluid rounded-start"
+                  style="object-fit: cover"
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Hobby</h5>
+                  <p class="card-text">I would like listen to music.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end of page -->
+          <div
+            style="
+              margin-top: 100px;
+              justify-content: center;
+              margin-left: 275px;
+            "
+          >
+            <span>©lab-01 by Sopida</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
